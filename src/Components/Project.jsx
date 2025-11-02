@@ -8,11 +8,11 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      title: "Ecommerce Website",
+      title: "shopspher",
       description: "Full-featured online shopping platform with product management and payment processing",
-      stack: "React.Js, Tailwind, Express.Js, MongoDB, Paystack",
+      stack: "React.Js, Tailwind, Express.Js, MongoDB, Paystack, AWS, CI/CD, Socket.io",
       image: projectone,
-      link: "#"
+      link: "https://www.shopspher.com" // Updated link
     },
     {
       id: 2,
@@ -68,6 +68,13 @@ const Project = () => {
       const y = projectsRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
       
       window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+  // Handle project link click
+  const handleProjectClick = (link) => {
+    if (link && link !== "#") {
+      window.open(link, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -127,7 +134,7 @@ const Project = () => {
                 </div>
                 
                 <button 
-                  onClick={() => window.location.href = project.link}
+                  onClick={() => handleProjectClick(project.link)}
                   className="w-full py-2 px-4 bg-fuchsia-600 hover:bg-fuchsia-700 text-white font-medium rounded-lg transition duration-300 transform hover:scale-[1.03]"
                 >
                   View Project

@@ -15,6 +15,8 @@ const About = () => {
     { name: "Express.Js", percentage: 70, color: "bg-blue-500" },
     { name: "MongoDB", percentage: 60, color: "bg-blue-500" },
     { name: "Redis", percentage: 40, color: "bg-red-500" },
+    { name: "AWS", percentage: 80, color: "bg-green-500" },
+    { name: "CI/CD", percentage: 60, color: "bg-blue-500" },
   ];
 
   const experiences = [
