@@ -37,7 +37,17 @@ const Project = () => {
       stack: "React.Js, Tensorflow, Express.Js, MongoDB",
       image: null,
       link: "#"
+    },
+    {
+      id: 4,
+      title: "Virtual Wardrobe",
+      description: "AI fashion assistant that suggests outfits based on your wardrobe",
+      stack: "React.Js, Tensorflow, Express.Js, MongoDB",
+      image: null,
+      link: "https://affiliate-marketing-bay.vercel.app"
++1
     }
+    
   ];
 
   // Handle scroll to projects section when page loads with #projects in URL
