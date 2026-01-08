@@ -40,9 +40,9 @@ const Project = () => {
     },
     {
       id: 4,
-      title: "Virtual Wardrobe",
-      description: "AI fashion assistant that suggests outfits based on your wardrobe",
-      stack: "React.Js, Tensorflow, Express.Js, MongoDB",
+      title: "Affiliate",
+      description: "Affiliate marketting plateform that connect buyers and sellers",
+      stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
       image: null,
       link: "https://affiliate-marketing-bay.vercel.app"
 +1
