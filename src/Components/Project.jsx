@@ -39,7 +39,7 @@ const Project = () => {
       link: "#"
     },
     {
-      id: 4,
+      id: 5,
       title: "Affiliate",
       description: "Affiliate marketting plateform that connect buyers and sellers",
       stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
