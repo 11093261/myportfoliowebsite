@@ -40,7 +40,7 @@ const Project = () => {
     },
     {
       id: 5,
-      title: "Affiliate",
+      title: "AffiliSphere",
       description: "Affiliate marketting plateform that connect buyers and sellers",
       stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
       image: null,
