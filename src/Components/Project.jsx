@@ -43,7 +43,7 @@ const Project = () => {
       title: "AffiliSphere",
       description: "Affiliate marketting plateform that connect buyers and sellers",
       stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
-      image: appnull,
+      image: null,
       link: "https://affiliate-marketing-bay.vercel.app"
 +1
     }
