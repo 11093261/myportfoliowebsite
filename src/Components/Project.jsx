@@ -12,7 +12,7 @@ const Project = () => {
       description: "Full-featured online shopping platform with product management and payment processing",
       stack: "React.Js, Tailwind, Express.Js, MongoDB, Paystack, AWS, CI/CD, Socket.io",
       image: projectone,
-      link: "https://www.shopspher.com" // Updated link
+      link: "https://www.shopspher.com"
     },
     {
       id: 2,
@@ -41,15 +41,14 @@ const Project = () => {
     {
       id: 5,
       title: "AffiliSphere",
-      description: "Affiliate marketting plateform that connect buyers and sellers",
+      description: "Affiliate marketing platform that connect buyers and sellers",
       stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
       image: null,
-      link: "https://affiliate-marketing-bay.vercel.app/"
-+1
+      link: "https://affiliate-marketing-bay.vercel.app"  // Fixed: Removed "/" and the stray "+1"
     }
-    
   ];
 
+  // Rest of your component remains the same...
   // Handle scroll to projects section when page loads with #projects in URL
   useEffect(() => {
     const handleHashChange = () => {
@@ -60,7 +59,7 @@ const Project = () => {
     
     // Check on initial load
     if (window.location.hash === '#projects') {
-      setTimeout(scrollToProjects, 100); // Small delay to ensure DOM is ready
+      setTimeout(scrollToProjects, 100);
     }
     
     // Add event listener for hash changes
@@ -74,7 +73,7 @@ const Project = () => {
   // Scroll to projects section with proper offset
   const scrollToProjects = () => {
     if (projectsRef.current) {
-      const yOffset = -80; // Adjust for fixed header height
+      const yOffset = -80;
       const y = projectsRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
       
       window.scrollTo({ top: y, behavior: 'smooth' });
