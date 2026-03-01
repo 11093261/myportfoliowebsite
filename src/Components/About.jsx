@@ -11,12 +11,19 @@ const About = () => {
     { name: "Tailwindcss", percentage: 80, color: "bg-green-500" },
     { name: "Javascript", percentage: 80, color: "bg-green-500" },
     { name: "React.Js", percentage: 80, color: "bg-green-500" },
+    { name: "React Native", percentage: 70, color: "bg-green-500" },
+    { name: "Typescript", percentage: 60, color: "bg-blue-500" },
     { name: "Node.Js", percentage: 50, color: "bg-red-500" },
     { name: "Express.Js", percentage: 70, color: "bg-blue-500" },
     { name: "MongoDB", percentage: 60, color: "bg-blue-500" },
+    { name: "Mysql", percentage: 50, color: "bg-red-500" },
     { name: "Redis", percentage: 40, color: "bg-red-500" },
     { name: "AWS", percentage: 80, color: "bg-green-500" },
     { name: "CI/CD", percentage: 60, color: "bg-blue-500" },
+    { name: "Expo", percentage: 80, color: "bg-green-500" },
+    { name: "Andriod studio", percentage: 70, color: "bg-blue-500" },
+
+
   ];
 
   const experiences = [
