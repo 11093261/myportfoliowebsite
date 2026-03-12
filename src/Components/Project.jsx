@@ -8,6 +8,14 @@ const Project = () => {
   const projects = [
     {
       id: 1,
+      title: "HostingCo",
+      description: "Full-featured cloud hosting platform with automated deployments and scalable infrastructure",
+      stack: "Next.js, TypeScript, MySQL, Prisma",
+      image: null,
+      link: "https://goldfish-app-zkm6w.ondigitalocean.app/"
+    },
+    {
+      id: 2,
       title: "shopspher",
       description: "Full-featured online shopping platform with product management and payment processing",
       stack: "React.Js, Tailwind, Express.Js, MongoDB, Paystack, AWS, CI/CD, Socket.io",
@@ -15,7 +23,7 @@ const Project = () => {
       link: "https://www.shopspher.com"
     },
     {
-      id: 2,
+      id: 3,
       title: "Sign Language Recognition",
       description: "AI-powered app that translates sign language to text in real-time",
       stack: "React.Js, Tensorflow, React-webcam, Express.Js",
@@ -23,7 +31,7 @@ const Project = () => {
       link: "#"
     },
     {
-      id: 3,
+      id: 4,
       title: "Ride Hailing Service",
       description: "On-demand transportation platform with real-time tracking and payments",
       stack: "React.Js, Tailwind, Express.Js, MongoDB, OpenStreetMap",
@@ -31,7 +39,7 @@ const Project = () => {
       link: "#"
     },
     {
-      id: 4,
+      id: 5,
       title: "Virtual Wardrobe",
       description: "AI fashion assistant that suggests outfits based on your wardrobe",
       stack: "React.Js, Tensorflow, Express.Js, MongoDB",
@@ -39,16 +47,15 @@ const Project = () => {
       link: "#"
     },
     {
-      id: 5,
+      id: 6,
       title: "AffiliSphere",
       description: "Affiliate marketing platform that connect buyers and sellers",
       stack: "React.js, Tailwindcss,Redux,Express.js,MongoDB , Amazon Affiliate link",
       image: null,
-      link: "https://affiliate-marketing-bay.vercel.app"  // Fixed: Removed "/" and the stray "+1"
+      link: "https://affiliate-marketing-bay.vercel.app"
     }
   ];
 
-  // Rest of your component remains the same...
   // Handle scroll to projects section when page loads with #projects in URL
   useEffect(() => {
     const handleHashChange = () => {
