@@ -14,6 +14,15 @@ const Project = () => {
       image: null,
       link: "https://goldfish-app-zkm6w.ondigitalocean.app/"
     },
+    // ✅ NEW PROJECT: Babes FA (inserted as second project)
+    {
+      id: 7,
+      title: "Babes FA",
+      description: "Football academy management platform with player registration, contact forms, and admin dashboard",
+      stack: "Next.js, TailwindCSS, MySQL",
+      image: null,
+      link: "https://babe-fa.vercel.app/"
+    },
     {
       id: 2,
       title: "shopspher",
