@@ -11,6 +11,7 @@ const About = () => {
     { name: "Tailwindcss", percentage: 80, color: "bg-green-500" },
     { name: "Javascript", percentage: 80, color: "bg-green-500" },
     { name: "React.Js", percentage: 80, color: "bg-green-500" },
+    { name: "Next.Js", percentage: 60, color: "bg-blue-500" },
     { name: "React Native", percentage: 70, color: "bg-green-500" },
     { name: "Typescript", percentage: 60, color: "bg-blue-500" },
     { name: "Node.Js", percentage: 50, color: "bg-red-500" },
